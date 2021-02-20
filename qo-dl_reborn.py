@@ -12,7 +12,7 @@ from datetime import datetime
 
 import mutagen.id3 as id3
 import requests
-from mutagen.flac import FLAC, Picture
+from mutagen.wave import WAVE, Picture
 from mutagen.id3 import ID3NoHeaderError
 from tqdm import tqdm
 
